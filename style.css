@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 20px 0px;
+  color: #ffffff;
+  background-color: blueviolet;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+.header-logo nav {
+  color: #ffffff;
+  display: flex;
+  gap: 30px;
+}
+.header-logo nav a {
+  color: #ffffff;
+  position: relative;
+  transition: all 30s;
+}
+.header-logo nav a:hover {
+  background-color: rgb(180, 42, 173);
+  padding: 5px;
+  top: 10px;
+}
+.banner {
+  padding: 100px 0px;
+}
+.banner-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.banner-wrapper > div {
+  width: 50%;
+}
+.banner-wrapper > div h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.banner-wrapper > div p {
+  font-size: 18px;
+  color: #505050;
+  margin: 30px 0px;
+}
+.banner-wrapper > div:last-child img {
+  width: 100%;
+}
+.banner-wrapper div:first-child div {
+  display: flex;
+  gap: 50px;
+}
+.banner-wrapper div:first-child div a {
+  padding: 20px;
+}
+.banner-wrapper div:first-child div a:first-child {
+  background-color: sandybrown;
+  color: #ffffff;
+  border-radius: 20px;
+  font-weight: 300;
+  box-shadow: 0px 4px 20px 5px #ffa92c;
+}
+.banner-wrapper div:first-child div a:first-child:hover {
+  background-color: rgb(226, 172, 150);
+  color: black;
+}
+.banner-wrapper div:first-child div a:last-child {
+  color: #14121f;
+  font-weight: 600;
+}
+
+/* Box  */
+
+.box-model {
+  padding: 100px 0px;
+}
+
+.box-wrapper .main-box {
+  display: flex;
+  justify-content: space-around;
+}
+.box-wrapper h1 {
+  margin: 50px 0px;
+}
+.box-wrapper div .main-box {
+  width: 40%;
+}
+.main-box > div img {
+  margin: 15px 10px;
+}
+.main-box .box {
+  width: 450px;
+  height: 350px;
+  color: #ffffff;
+
+  padding: 20px;
+  background-color: #505050;
+  border-radius: 20px;
+}
+.main-box .box1 {
+  background-color: rgb(2, 88, 88);
+}
+
+.main-box .box1 {
+  background-color: rgb(2, 88, 88);
+}
+.main-box .box2 {
+  background-color: rgb(139, 48, 167);
+}
+
+.main-box .box3 {
+  background-color: rgb(68, 5, 5);
+}
+
+.main-box h2 {
+  margin: 20px 0;
+}
+.main-box:first-of-type p {
+  margin: 20px 0;
+}
+.main-box > div > div {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.main-box > div > div p:first-child {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
